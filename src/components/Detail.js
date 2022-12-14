@@ -13,7 +13,7 @@ const Detail = ({ exerciseDetail }) => {
       gap="60px"
       sx={{ flexDirection: { lg: "row" }, p: "20px", alignItems: "center" }}
     >
-      <img scr={gifUrl} alt={name} loading="lazy" className="detail-image" />
+      <img src={gifUrl} alt={name} loading="lazy" className="detail-image" />
     </Stack>
   );
 };
