@@ -9,6 +9,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
         <span style={{ color: "#ff2625", textTransform: "capitalize" }}>
           {` `}
           {name}
+          {` `}
         </span>
         exercise videos
       </Typography>
